@@ -188,7 +188,7 @@ const Navbar = () => {
           </NavLinks>
         </div>
       </NavContainer>
-      <Drawer title="" placement="right" onClose={() => setVisible(!visible)} visible={visible} width="300px">
+      <Drawer title="" placement="left" onClose={() => setVisible(!visible)} visible={visible} width="300px">
         <div className="wallet__body">
           {active ? (
             <>

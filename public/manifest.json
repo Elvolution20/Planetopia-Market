@@ -4,8 +4,8 @@
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
-  "name": "Vefi NFT Marketplace",
-  "short_name": "Vefi NFT",
+  "name": "PLanetopia NFT Marketplace",
+  "short_name": "Planetopia NFT",
   "description": "Trade non-fungible assets on various chains with ease.",
   "icons": [
     {

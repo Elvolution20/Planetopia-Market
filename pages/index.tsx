@@ -459,7 +459,7 @@ export default function Homepage() {
   return (
     <>
       <Head>
-        <title>Vefi NFT marketplace | Create and trade various non-fungible assets</title>
+        <title>Planetopia NFT marketplace | Create and trade various non-fungible assets</title>
       </Head>
       <MainContainer>
         <MarketplaceContainer>
@@ -475,11 +475,11 @@ export default function Homepage() {
                 <RoundBlueLine>
                   <Image width="149px" height="80px" src="/objects/round.svg" />
                 </RoundBlueLine>
-                <DiscoverText>Discover, collect, and sell extraordinary NFTs.</DiscoverText>
+                <DiscoverText>Discover, create, collect, and sell extraordinary NFTs.</DiscoverText>
                 <ButtonContainer>
                   <Filled_CTA_Button onClick={() => router.replace('/marketplace')}>Get Started</Filled_CTA_Button>
                   <Ghost_CTA_Button onClick={() => router.replace('/collections/item/new')}>
-                    Become a Creator
+                    Create NFT
                   </Ghost_CTA_Button>
                 </ButtonContainer>
               </DiscoverPart>
@@ -571,7 +571,7 @@ export default function Homepage() {
             <Category>
               <div className="category__container">
                 <div className="category__heading">
-                  <h2>Browse by Category</h2>
+                  <h2>Category</h2>
                 </div>
                 <div className="cartegory__card__listing">
                   {_.map(Object.values(CollectionCategory).sort(), category => (
@@ -590,9 +590,9 @@ export default function Homepage() {
           {/* <Footer>
             <div className="footer__container">
               <div className="footer__left">
-                <h2>Introducing the Vefi bridging technology </h2>
+                <h2>Introducing the Planetopia technology </h2>
                 <p>
-                  Get to link your Nft from one network to another Quick and easy right from the VefiNft website Read
+                  Get to link your Nft from one network to another Quick and easy right from the Planetopia Nft website Read
                   more
                 </p>
                 <Button type="primary">Start Bridging</Button>

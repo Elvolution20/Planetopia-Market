@@ -41,7 +41,7 @@ export default class CustomDocument extends Document {
           ></link>
           <meta
             name="description"
-            content="The Vefi NFT marketplace is a product of the Vefi Ecosystem that allows the creation and the trading of non-fungible assets on various chains."
+            content="The Planetopia NFT marketplace is a marketplace that allows the creation and the trading of non-fungible assets on various chains."
           />
           <meta httpEquiv="Content-Security-Policy" content="upgrade-insecure-requests" />
         </Head>
