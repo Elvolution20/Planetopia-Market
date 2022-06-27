@@ -475,11 +475,11 @@ export default function Homepage() {
                 <RoundBlueLine>
                   <Image width="149px" height="80px" src="/objects/round.svg" />
                 </RoundBlueLine>
-                <DiscoverText>Discover, create, collect, and sell extraordinary NFTs.</DiscoverText>
+                <DiscoverText>Discover, create, collect, and sell unique NFTs.</DiscoverText>
                 <ButtonContainer>
-                  <Filled_CTA_Button onClick={() => router.replace('/marketplace')}>Get Started</Filled_CTA_Button>
+                  <Filled_CTA_Button onClick={() => router.replace('/marketplace')}>Explore</Filled_CTA_Button>
                   <Ghost_CTA_Button onClick={() => router.replace('/collections/item/new')}>
-                    Create NFT
+                    Create 
                   </Ghost_CTA_Button>
                 </ButtonContainer>
               </DiscoverPart>
