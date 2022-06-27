@@ -17,7 +17,7 @@ function MainFooter() {
           <h4 className="loop_text">Stay in the loop</h4>
           <p className="loop_desc">
             Join our mailing list to stay in the loop with our newest feature release, <br />
-            NFT dopes, and tips and tricks for navigating vefi NFT.
+            NFT dopes, and tips and tricks for navigating planetopia NFT.
           </p>
         </div>
         <div>
@@ -39,15 +39,13 @@ function MainFooter() {
             <a href="https://github.com/Vefi-Ecosystem/vefi-nft-marketplace" rel="noreferrer" target="_blank">
               <FaGithub className="icon" />
             </a>
-            <a href="https://t.me/vefi_official" target="_blank" rel="noreferrer">
+            <a href="https://t.me/planetopia_official" target="_blank" rel="noreferrer">
               <FaTelegram className="icon" />
             </a>
-            <a href="https://twitter.com/vefi_official" target="_blank" rel="noreferrer">
+            <a href="https://twitter.com/planetopia_defi" target="_blank" rel="noreferrer">
               <AiFillTwitterCircle className="icon" />
             </a>
-            <a href="https://facebook.com/vefi.official" target="_blank" rel="noreferrer">
-              <FaFacebook className="icon" />
-            </a>
+          
           </div>
         </div>
       </SubDiv1>
@@ -103,16 +101,7 @@ function MainFooter() {
             </div>
           </div>
         )}
-        <div className="company">
-          <h2 className="nav_section">Company</h2>
-          {marketplaceArray.slice(14, 18).map(({ label, path }: any) => (
-            <FootLink key={label}>
-              <Link href={path}>
-                <a>{label}</a>
-              </Link>
-            </FootLink>
-          ))}
-        </div>
+
       </SubDiv2>
     </Container>
   );

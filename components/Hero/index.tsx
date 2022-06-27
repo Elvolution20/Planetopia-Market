@@ -49,7 +49,7 @@ function Hero() {
               </div>
               <div className="title">Setup Wallet</div>
               <div className="content">
-                Connect to the Vefi NFT marketplace using a wallet of choice. Sign transactions and messages and get
+                Connect to the Planetopia NFT marketplace using a wallet of choice. Sign transactions and messages and get
                 authenticated.
               </div>
             </div>
@@ -92,9 +92,9 @@ function Hero() {
               <div className="image">
                 <Image src={Mint} height={50} width={70} />
               </div>
-              <div className="title">Get minting discounts for holding VEFs</div>
+              <div className="title">Get minting discounts for holding PLAs</div>
               <div className="content">
-                You get some discount to mint NFTs or collections if you hold a certain amount of the VEF token.
+                You get some discount to mint NFTs or collections if you hold a certain amount of the PLA token.
               </div>
             </div>
           </SwiperSlide>
@@ -109,25 +109,25 @@ const carouselArray = [
     image: Wallet,
     title: 'Setup Wallet',
     content:
-      'Connect to the Vefi NFT marketplace using a wallet of choice. Sign transactions and messages and get authenticated.'
+      'Connect to the Planetopia NFT marketplace using a wallet of choice. Sign transactions and messages and get authenticated.'
   },
   {
     image: PriceTag,
     title: 'Setup Wallet',
     content:
-      'Connect to the Vefi NFT marketplace using a wallet of choice. Sign transactions and messages and get authenticated.'
+      'Connect to the Planetopia NFT marketplace using a wallet of choice. Sign transactions and messages and get authenticated.'
   },
   {
     image: PriceTag,
     title: 'Setup Wallet',
     content:
-      'Connect to the Vefi NFT marketplace using a wallet of choice. Sign transactions and messages and get authenticated.'
+      'Connect to the Planetopia NFT marketplace using a wallet of choice. Sign transactions and messages and get authenticated.'
   },
   {
     image: PriceTag,
     title: 'Setup Wallet',
     content:
-      'Connect to the Vefi NFT marketplace using a wallet of choice. Sign transactions and messages and get authenticated.'
+      'Connect to the Planetopia NFT marketplace using a wallet of choice. Sign transactions and messages and get authenticated.'
   }
 ];
 
