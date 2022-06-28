@@ -31,12 +31,12 @@ function MainFooter() {
           </form>
         </div>
         {/* <div className="logo_container">
-          <Image src="/logo/vefi_nft_logo.svg" height={40} width={100} />
+          <Image src="/logo/nft_logo.png" height={40} width={100} />
         </div> */}
         <div className="community">
           <h5 className="join">Join Our Community</h5>
           <div className="socials">
-            <a href="https://github.com/Vefi-Ecosystem/vefi-nft-marketplace" rel="noreferrer" target="_blank">
+            <a href="https://github.com/Elvolution_20" rel="noreferrer" target="_blank">
               <FaGithub className="icon" />
             </a>
             <a href="https://t.me/planetopia_official" target="_blank" rel="noreferrer">
