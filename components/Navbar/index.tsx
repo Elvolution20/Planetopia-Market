@@ -135,7 +135,7 @@ const Navbar = () => {
           <NavBrand>
             <Link href="/">
               <a>
-                <Image src="/logo/logo.svg" width={100} height={45} />
+                <Image src="/logo/logo.png" width={100} height={45} />
               </a>
             </Link>
           </NavBrand>
