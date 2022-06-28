@@ -195,9 +195,9 @@ const Users = () => {
               <p>Joined {accountById?.createdAt as string}</p>
             </div>
             <ButtonContainer>
-                  <Button onClick={() => router.replace('/marketplace')}>Explore</Button>
-                  <Button onClick={() => router.replace('/collections/item/new')}>
-                    Create 
+                  <Button onClick={() => router.replace('/users/profile/create')}>Create Profile</Button>
+                  <Button onClick={() => router.replace('/users/profile/update')}>
+                    Update Profile 
                   </Button>
                 </ButtonContainer>
           </div>
