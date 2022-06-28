@@ -194,6 +194,12 @@ const Users = () => {
             <div className="join__date">
               <p>Joined {accountById?.createdAt as string}</p>
             </div>
+            <ButtonContainer>
+                  <Button onClick={() => router.replace('/marketplace')}>Explore</Button>
+                  <Button onClick={() => router.replace('/collections/item/new')}>
+                    Create 
+                  </Button>
+                </ButtonContainer>
           </div>
           <ButtonContainer>
             {(!authenticatedUser || !authenticatedUser.email) && authenticatedUser?.accountId === id && (
