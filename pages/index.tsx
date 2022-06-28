@@ -132,7 +132,7 @@ const FilterContainer = styled.div`
 `;
 
 // const FilterBtn = styled.button`
-//   background: ${(props: any) => (props.isActive ? '#5C95FF' : '#373943 ')};
+//   background: ${(props: any) => (props.isActive ? '#976bfc' : '#373943 ')};
 //   border-radius: 11px;
 //   cursor: pointer;
 //   font-family: 'Rubik';
@@ -150,7 +150,7 @@ const FilterContainer = styled.div`
 // `;
 
 const FilterBtn = styled.button`
-  background: ${(props: any) => (props.isActive ? '#5C95FF' : '#373943 ')};
+  background: ${(props: any) => (props.isActive ? '#976bfc' : '#373943 ')};
   border-radius: 11px;
   font-family: 'Rubik';
   font-style: normal;

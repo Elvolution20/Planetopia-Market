@@ -11,7 +11,7 @@ type Props = {
 const DottedLineDivItem = styled.div`
   width: 356px;
   height: 177px;
-  border: 2px dashed #5c95ff;
+  border: 2px dashed #976bfc;
   border-radius: 11px;
   margin-top: 29px;
 
@@ -57,7 +57,7 @@ const DottedLineDivItem = styled.div`
 const DottedLineDivSmall = styled.div`
   width: 356px;
   height: 130px;
-  border: 2px dashed #5c95ff;
+  border: 2px dashed #976bfc;
   border-radius: 11px;
   margin-top: 27px;
 
@@ -99,7 +99,7 @@ const DottedLineDivSmall = styled.div`
 `;
 
 const RoundDotted = styled.div`
-  border: 2px dashed #5c95ff;
+  border: 2px dashed #976bfc;
   border-radius: 50%;
   width: 108px;
   height: 108px;

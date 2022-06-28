@@ -83,7 +83,7 @@ export const FilterWrapper = styled.div`
       .ant-btn {
         padding-left: 10px !important;
         &.active {
-          background: #5c95ff !important;
+          background: #976bfc !important;
         }
       }
       .input__box {

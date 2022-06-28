@@ -41,7 +41,7 @@ function Listing({ datasource, acceptanceButtonEnabled, rejectionButtonEnabled, 
     <>
       <ListingTable>
         <ListingTableHeading>
-          <FiList color="#5c95ff" />
+          <FiList color="#976bfc" />
           Offer Listing
         </ListingTableHeading>
         {/* <table style={{ border: '1px solid #ccc', width: '100%' }}>

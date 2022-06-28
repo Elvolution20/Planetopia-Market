@@ -99,7 +99,7 @@ const MainSellContainer = styled.div`
   .input-div {
     width: 195px;
     height: 38px;
-    border: 1.5px solid #5c95ff;
+    border: 1.5px solid #976bfc;
     border-radius: 4px;
     display: flex;
     flex-direction: row;
@@ -143,7 +143,7 @@ const MainSellContainer = styled.div`
   .input-div-large {
     width: 404px;
     height: 38px;
-    border: 1.5px solid #5c95ff;
+    border: 1.5px solid #976bfc;
     border-radius: 4px;
     display: flex;
     flex-direction: row;

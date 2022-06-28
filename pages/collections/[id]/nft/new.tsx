@@ -109,7 +109,7 @@ const ParentExploreAndData = styled.div`
   }
 
   .blue {
-    color: #5c95ff;
+    color: #976bfc;
   }
 
   .heading {
@@ -126,7 +126,7 @@ const ParentExploreAndData = styled.div`
     margin-top: 27px;
     width: 468px;
     height: 38px;
-    border: 1.5px solid #5c95ff;
+    border: 1.5px solid #976bfc;
     border-radius: 4px;
 
     .inp {
@@ -150,7 +150,7 @@ const ParentExploreAndData = styled.div`
     margin-top: 11px;
     width: 468px;
     height: 38px;
-    border: 1.5px solid #5c95ff;
+    border: 1.5px solid #976bfc;
     border-radius: 4px;
 
     .inp {
@@ -172,7 +172,7 @@ const ParentExploreAndData = styled.div`
   }
 
   .text-area {
-    border: 1.5px solid #5c95ff;
+    border: 1.5px solid #976bfc;
     border-radius: 4px;
     width: 468px;
     height: 184px;

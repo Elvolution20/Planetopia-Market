@@ -13,7 +13,7 @@ const Filled_CTA_Button = styled.button`
   padding: 10px 20px;
   color: ${(props: Props) => props.color || '#FFF'};
   border-radius: ${(props: Props) => props.borderRadius || '11px'};
-  background-color: ${(props: Props) => props.backgroundColor || '#5C95FF'};
+  background-color: ${(props: Props) => props.backgroundColor || '#976bfc'};
 
   font-size: ${(props: Props) => props.fontSize || '14px'};
 

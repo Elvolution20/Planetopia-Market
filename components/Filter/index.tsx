@@ -9,7 +9,7 @@ type IFilterProps = {
 };
 
 export const FilterPropertyWrapper = styled.div`
-  background: ${(props: { isActive: boolean }) => (props.isActive ? '#5C95FF' : '#373943')};
+  background: ${(props: { isActive: boolean }) => (props.isActive ? '#976bfc' : '#373943')};
   width: max-content;
 
   border-radius: 10px;

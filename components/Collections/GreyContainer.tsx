@@ -48,7 +48,7 @@ const FilterBtn = styled.button`
   line-height: 17px;
   border: none;
 
-  color: #5c95ff;
+  color: #976bfc;
   padding: 10px;
 
   cursor: pointer;
@@ -69,7 +69,7 @@ const FilterAllBtn = styled.button`
   line-height: 17px;
   border: none;
 
-  color: #5c95ff;
+  color: #976bfc;
   padding: 10px 50px 10px 10px;
 
   cursor: pointer;
@@ -120,7 +120,7 @@ const ItemDiv = styled.div`
   cursor: pointer;
   padding: 5px;
 
-  ${(props: { active: boolean }) => (props.active ? 'border-bottom: 3px solid #5C95FF;' : '')}
+  ${(props: { active: boolean }) => (props.active ? 'border-bottom: 3px solid #976bfc;' : '')}
 `;
 
 const ButtonViewContainer = styled.div`
@@ -134,7 +134,7 @@ const ButtonViewContainer = styled.div`
 `;
 
 const Grid4Button = styled.div`
-  background: #5c95ff;
+  background: #976bfc;
   border-radius: 11px 0px 0px 11px;
   height: 37px;
   width: 57px;

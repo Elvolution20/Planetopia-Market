@@ -54,7 +54,7 @@ const BodyContainer = styled.div`
   position: relative;
   padding-bottom: 50px;
   button:disabled {
-    background-color: #5c95ff;
+    background-color: #976bfc;
     color: #fff;
   }
 
@@ -104,12 +104,12 @@ const Label = styled.label`
   color: #fff;
   font-weight: bold;
   sup {
-    color: #5c95ff;
+    color: #976bfc;
   }
 `;
 
 const InputText = styled.input`
-  border: 1.5px solid #5c95ff;
+  border: 1.5px solid #976bfc;
   border-radius: 4px;
   background-color: transparent;
   height: 40px;

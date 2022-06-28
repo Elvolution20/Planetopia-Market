@@ -4,7 +4,7 @@ import styled from 'styled-components';
 type Props = {};
 
 const CollectionRoundAvatar = styled.div`
-  border: 5px solid #5c95ff;
+  border: 5px solid #976bfc;
   border-radius: 50%;
   width: 236px;
   height: 236px;
@@ -49,7 +49,7 @@ const CollectionInfoCont = styled.div`
     gap: 12px;
 
     .blue {
-      color: #5c95ff;
+      color: #976bfc;
     }
   }
 `;
@@ -100,7 +100,7 @@ const StatsBox = styled.div`
   }
 
   .blue-div {
-    background: #5c95ff;
+    background: #976bfc;
     border-radius: 3px;
 
     display: flex;

@@ -54,13 +54,13 @@ const ChartHeader = styled.div`
     margin-top: 3px !important;
   }
   span:first-child {
-    color: #5c95ff;
+    color: #976bfc;
     transform: rotate(75deg);
   }
 `;
 
 const FilterBtn = styled.button`
-  background: ${(props: any) => (props.isActive ? '#5C95FF' : '#373943 ')};
+  background: ${(props: any) => (props.isActive ? '#976bfc' : '#373943 ')};
   border-radius: 11px;
   font-family: 'Rubik';
   font-style: normal;
@@ -188,7 +188,7 @@ const PriceChart = ({ timestamps, prices, onChange }: Props) => {
               datasets: [
                 {
                   data: prices,
-                  borderColor: '#5c95ff'
+                  borderColor: '#976bfc'
                 }
               ]
             }}

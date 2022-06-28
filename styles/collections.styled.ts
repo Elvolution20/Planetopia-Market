@@ -58,7 +58,7 @@ export const NFTUserStats = styled.div`
         }
       }
       .label {
-        background: #5c95ff;
+        background: #976bfc;
         padding: 5px 10px;
         width: 100%;
         justify-content: center;

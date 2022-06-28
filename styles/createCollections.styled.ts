@@ -77,14 +77,14 @@ export const FormWrapper = styled.div`
       color: #ebf8ff;
 
       span {
-        color: #5c95ff;
+        color: #976bfc;
       }
     }
     p {
       color: rgba(255, 255, 255, 0.5);
       font-size: 0.9rem;
       span {
-        color: #5c95ff;
+        color: #976bfc;
       }
       @media screen and (max-width: 760px) {
         font-size: 0.75rem;
@@ -111,7 +111,7 @@ export const FormWrapper = styled.div`
     flex-direction: column;
     .icon {
       font-size: 2.5rem;
-      color: #5c95ff;
+      color: #976bfc;
     }
     .circle {
       width: 100px;
@@ -138,7 +138,7 @@ export const FormWrapper = styled.div`
     textarea,
     .ant-input-number {
       background: transparent;
-      border: 1px solid #5c95ff;
+      border: 1px solid #976bfc;
       padding: 8px;
       outline: none;
       outline-width: 0px;
@@ -160,6 +160,6 @@ export const FormWrapper = styled.div`
     }
   }
   .file__upload__wrapper {
-    border: 2px dashed #5c95ff;
+    border: 2px dashed #976bfc;
   }
 `;

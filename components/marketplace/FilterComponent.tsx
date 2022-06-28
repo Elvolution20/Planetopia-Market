@@ -33,7 +33,7 @@ const FilterBtn = styled.button`
   font-size: 12px;
   line-height: 17px;
   border: none;
-  color: #5c95ff;
+  color: #976bfc;
   padding: 10px;
   height: 37px;
   display: flex;
@@ -51,7 +51,7 @@ const FilterAllBtn = styled.button`
   line-height: 17px;
   height: 37px;
   border: none;
-  color: #5c95ff;
+  color: #976bfc;
   padding: 10px 50px 10px 10px;
   cursor: pointer;
   display: flex;

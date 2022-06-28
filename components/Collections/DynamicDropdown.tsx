@@ -41,7 +41,7 @@ const Dropdown = styled.div`
 
   margin-top: ${(props: { top: string }) => (props.top ? props.top : '36px')};
 
-  color: #5c95ff;
+  color: #976bfc;
 
   .cross {
     font-size: 22px;

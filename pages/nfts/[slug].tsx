@@ -56,8 +56,8 @@ const ProfileContainer = styled.div`
 const Banner = styled.div`
   margin-top: 10px;
   width: 100%;
-  border-top: 5px solid #5c95ff;
-  border-bottom: 5px solid #5c95ff;
+  border-top: 5px solid #976bfc;
+  border-bottom: 5px solid #976bfc;
   height: 98px;
   background: ${(props: any) => `url(${props.background})`} no-repeat;
   display: flex;
@@ -83,7 +83,7 @@ const Banner = styled.div`
 // `;
 
 // const ProfileAvatar = styled.div`
-//   border: 5px solid #5c95ff;
+//   border: 5px solid #976bfc;
 //   border-radius: 50%;
 //   width: 125px;
 //   height: 125px;
@@ -129,7 +129,7 @@ const CollectionInfoCont = styled.div`
     gap: 12px;
 
     .blue {
-      color: #5c95ff;
+      color: #976bfc;
       word-break: break-all;
     }
     @media screen and (max-width: 760px) {
@@ -667,7 +667,7 @@ export default function NFT() {
                 <ItemName>{nftById.metadata?.name || 'NFT Name'}</ItemName>
                 <div className="button__wrapper">
                   <CTA>
-                    {/* <Filled_CTA_Button backgroundColor="#5C95FF" color="#fff">
+                    {/* <Filled_CTA_Button backgroundColor="#976bfc" color="#fff">
                       Buy Now
                     </Filled_CTA_Button> */}
                     {!!account && account !== nftById.owner && !itemOnSale && (
@@ -679,7 +679,7 @@ export default function NFT() {
                           setTimeout(() => setTransition(true), 10);
                         }}
                         backgroundColor="#fff"
-                        color="#5C95FF"
+                        color="#976bfc"
                       >
                         Make an offer
                       </Filled_CTA_Button>
