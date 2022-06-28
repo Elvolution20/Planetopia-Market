@@ -472,9 +472,6 @@ export default function Homepage() {
                 <Image width="97px" height="585px" src="/icons/exploreNFT.png" />
               </ExploreNFT>
               <DiscoverPart>
-                <RoundBlueLine>
-                  <Image width="149px" height="80px" src="/objects/round.svg" />
-                </RoundBlueLine>
                 <DiscoverText>Discover, create, collect, and sell unique NFTs.</DiscoverText>
                 <ButtonContainer>
                   <Filled_CTA_Button onClick={() => router.replace('/marketplace')}>Explore</Filled_CTA_Button>
