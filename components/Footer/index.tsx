@@ -80,6 +80,10 @@ function MainFooter() {
                   path: `/users/${account}`
                 },
                 {
+                  label: 'Create Account',
+                  path: `/users/profile/create`
+                },
+                {
                   label: 'My Favourites',
                   path: `/users/${account}?tab=4`
                 },
