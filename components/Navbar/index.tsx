@@ -275,13 +275,13 @@ const Navbar = () => {
                         <Image src="/icons/eth.svg" width={20} height={20} alt="wallet" />
                       </div>
                       <div className="wallet__account__info">
-                        <div className="chain__name">VEF</div>
+                        <div className="chain__name">PLA</div>
                         <div className="source__account">USD</div>
                       </div>
                     </div>
                     <div className="account__balance__info__right">
-                      <div className="chain__name__amount">2.454</div>
-                      <div className="source__account__amount">$3,000 USD</div>
+                      <div className="chain__name__amount">200</div>
+                      <div className="source__account__amount">$1,000 USD</div>
                     </div>
                   </div>
                 </div>
