@@ -7,7 +7,7 @@ export const Category = styled.section`
   height: 100%;
 
   .category__container {
-    background: #fc9f07;
+    background: rgba(255, 255, 255, 0.1);
     padding: 20px 30px;
     height: 100%;
     border-radius: 10px;
@@ -69,7 +69,7 @@ export const CategoryCardWrapper = styled.div`
     }
   }
   .cartegory__card__footer {
-    background: linear-gradient(137.43deg, rgba(0, 0, 0, 0.6) 3.89%, rgba(255, 255, 255, 0.2) 100%);
+    background: linear-gradient(137.43deg, rgba(0, 0, 0, 0.6) 3.89%, rgb(151, 107, 252) 100%);
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
     height: 60px;
