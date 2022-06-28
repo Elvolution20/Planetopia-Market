@@ -7,7 +7,7 @@ export const Category = styled.section`
   height: 100%;
 
   .category__container {
-    background: rgba(255, 255, 255, 0.1);
+    background: #fc9f07;
     padding: 20px 30px;
     height: 100%;
     border-radius: 10px;
