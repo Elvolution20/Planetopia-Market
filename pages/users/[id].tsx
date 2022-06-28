@@ -198,7 +198,6 @@ const Users = () => {
             {(!authenticatedUser || !authenticatedUser.email) && authenticatedUser?.accountId === id && (
               <Link href="/users/profile/create" passHref>
                 <Button>
-                  <FaRegUser />
                   Create Profile
                 </Button>
               </Link>
