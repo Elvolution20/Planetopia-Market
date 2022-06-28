@@ -468,9 +468,6 @@ export default function Homepage() {
               <Navbar />
             </div>
             <DiscoverAndAnimate>
-              <ExploreNFT>
-                <Image width="97px" height="585px" src="/icons/exploreNFT.png" />
-              </ExploreNFT>
               <DiscoverPart>
                 <DiscoverText>Discover, create, collect, and sell unique NFTs.</DiscoverText>
                 <ButtonContainer>
