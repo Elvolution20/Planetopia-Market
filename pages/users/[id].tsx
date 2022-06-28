@@ -194,10 +194,12 @@ const Users = () => {
             <div className="join__date">
               <p>Joined {accountById?.createdAt as string}</p>
             </div>
-            <ButtonContainer>
+          </div>
+          <ButtonContainer>
             {(!authenticatedUser || !authenticatedUser.email) && authenticatedUser?.accountId === id && (
               <Link href="/users/profile/create" passHref>
                 <Button>
+                  <FaRegUser />
                   Create Profile
                 </Button>
               </Link>
@@ -211,7 +213,6 @@ const Users = () => {
               </Link>
             )}
           </ButtonContainer>
-          </div>
         </UserBanner>
 
         <NFTUserCollectionInfo>
