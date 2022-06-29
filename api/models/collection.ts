@@ -22,7 +22,7 @@ export const CollectionCategoryImages = {
   'DOMAIN NAMES': '/images/Domain.jpg',
   MUSIC: '/images/Music.png',
   PHOTOGRAPHY: '/images/photography.jpg',
-  FASHION: '/images/Fashion.jpg',
+  FASHION: '/images/Fashion.png',
   GAMING: '/images/Gaming.jpg',
   UTILITY: '/images/Utility.jpg',
   'REAL ESTATE': '/images/Real-Estate.jpg',
