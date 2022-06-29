@@ -15,10 +15,10 @@ export enum CollectionCategory {
 }
 
 export const CollectionCategoryImages = {
-  WEARABLES: '/images/Wearables.jpg',
+  WEARABLES: '/images/Wearable.jpg',
   SPORTS: '/images/Sport.jpg',
   ART: '/images/Art.jpg',
-  COLLECTIBLES: '/images/Collectibles.jpg',
+  COLLECTIBLES: '/images/Collectible.jpg',
   'DOMAIN NAMES': '/images/Domain.jpg',
   MUSIC: '/images/Music.png',
   PHOTOGRAPHY: '/images/photography.jpg',
