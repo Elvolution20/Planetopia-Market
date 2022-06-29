@@ -11,25 +11,23 @@ export enum CollectionCategory {
   UTILITY = 'UTILITY',
   REAL_ESTATE = 'REAL ESTATE',
   CARTOONS = 'CARTOONS',
-  MOVIES = 'MOVIES',
   GIFT_CARDS = 'GIFT CARDS'
 }
 
 export const CollectionCategoryImages = {
-  WEARABLES: '/images/wearables.jpg',
-  SPORTS: '/images/sports.svg',
-  ART: '/images/art.png',
-  COLLECTIBLES: '/images/collectibles.svg',
-  'DOMAIN NAMES': '/images/domain_names.svg',
-  MUSIC: '/images/music.svg',
+  WEARABLES: '/images/Wearables.jpg',
+  SPORTS: '/images/Sports.jpg',
+  ART: '/images/Art.jpg',
+  COLLECTIBLES: '/images/Collectibles.jpg',
+  'DOMAIN NAMES': '/images/Domain.jpg',
+  MUSIC: '/images/Music.png',
   PHOTOGRAPHY: '/images/photography.jpg',
-  FASHION: '/images/fashion.jpg',
-  GAMING: '/images/video-game-assets.svg',
-  UTILITY: '/images/ticketing.svg',
-  'REAL ESTATE': '/images/virtual-land.svg',
-  CARTOONS: '/images/cartoons.jpg',
-  MOVIES: '/images/movies.jpg',
-  'GIFT CARDS': '/images/gift_cards.jpg'
+  FASHION: '/images/Fashion.jpg',
+  GAMING: '/images/Gaming.jpg',
+  UTILITY: '/images/Utility.jpg',
+  'REAL ESTATE': '/images/Real-Estate.jpg',
+  CARTOONS: '/images/Cartoons.jpg',
+  'GIFT CARDS': '/images/Gift_Card.jpg'
 };
 
 export type CollectionMetadata = {
