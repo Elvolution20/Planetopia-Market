@@ -16,7 +16,7 @@ export enum CollectionCategory {
 
 export const CollectionCategoryImages = {
   WEARABLES: '/images/Wearables.jpg',
-  SPORTS: '/images/Sports.jpg',
+  SPORTS: '/images/Sport.jpg',
   ART: '/images/Art.jpg',
   COLLECTIBLES: '/images/Collectibles.jpg',
   'DOMAIN NAMES': '/images/Domain.jpg',
@@ -26,7 +26,7 @@ export const CollectionCategoryImages = {
   GAMING: '/images/Gaming.jpg',
   UTILITY: '/images/Utility.jpg',
   'REAL ESTATE': '/images/Real-Estate.jpg',
-  CARTOONS: '/images/Cartoons.jpg',
+  CARTOONS: '/images/Cartoon.jpg',
   'GIFT CARDS': '/images/Gift_Card.jpg'
 };
 
