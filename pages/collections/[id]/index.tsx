@@ -164,7 +164,7 @@ const Collection = () => {
   return (
     <>
       <Head>
-        <title>View {collectionById.collectionName} on Vefi NFT marketplace</title>
+        <title>View {collectionById.collectionName} on Planetopia NFT marketplace</title>
       </Head>
       <UsersWrapper>
         <Navbar />

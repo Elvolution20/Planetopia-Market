@@ -1,5 +1,5 @@
 {
-  "name": "vefi-nft-marketplace",
+  "name": "planetopia-nft-marketplace",
   "private": true,
   "scripts": {
     "dev": "next dev",

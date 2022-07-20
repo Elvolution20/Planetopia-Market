@@ -167,8 +167,8 @@ export const APIContextProvider = ({ children }: any) => {
 
   const loadAuthUser = () => {
     clearError();
-    if (!!token || !!localStorage.getItem('VEFI_NFT_TOKEN'))
-      getAuthenticatedUser(token.trim().length > 0 ? token : (localStorage.getItem('VEFI_NFT_TOKEN') as string))
+    if (!!token || !!localStorage.getItem('PLANETOPIA_NFT_TOKEN'))
+      getAuthenticatedUser(token.trim().length > 0 ? token : (localStorage.getItem('PLANETOPIA_NFT_TOKEN') as string))
         .then(setAuthenticatedUser)
         .catch((error: any) => setError({ point: APIErrorPoint.AUTH_USER, message: error.message }));
   };
@@ -342,15 +342,15 @@ export const APIContextProvider = ({ children }: any) => {
   };
 
   useEffect(() => {
-    if (!!localStorage.getItem('VEFI_NFT_TOKEN')) {
-      setToken(localStorage.getItem('VEFI_NFT_TOKEN') as string);
+    if (!!localStorage.getItem('PLANETOPIA_NFT_TOKEN')) {
+      setToken(localStorage.getItem('PLANETOPIA_NFT_TOKEN') as string);
     }
   }, []);
 
   useEffect(() => {
     if (!!token && token.trim().length > 0) {
       loadAuthUser();
-      localStorage.setItem('VEFI_NFT_TOKEN', token);
+      localStorage.setItem('PLANETOPIA_NFT_TOKEN', token);
     }
   }, [token]);
 
