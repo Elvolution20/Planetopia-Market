@@ -35,7 +35,9 @@ const MarketplaceContainer = styled.div`
   min-height: 100vh;
   width: 100%;
 
-  background: #0c0c0c;
+  background: url('/objects/spacebg.jpg') ;
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
   overflow: hidden;
   .main__container__wrapper {
     width: 100%;
