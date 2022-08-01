@@ -14,7 +14,7 @@ const ObjectContainer1 = styled.div`
   animation-timing-function: ease-out;
   margin-left: ${(props: { animate: boolean }) => (props.animate ? '52%' : '0')};
   margin-top: -240px;
-  background: url('/objects/space.json') no-repeat;
+  background: url('/objects/spacebg.jpg') no-repeat;
   background-size: cover;
   width: 100%;
 
