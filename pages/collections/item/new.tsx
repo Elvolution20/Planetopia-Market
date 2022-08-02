@@ -39,20 +39,6 @@ const NavbarContainer = styled.div`
   width: 100%;
 `;
 
-const ColoredBackground = styled.div`
-  width: 600px;
-  height: 100vh;
-  background: url('/objects/marketplaceObjects.svg') no-repeat;
-  position: absolute;
-  background-size: contain;
-  top: -5%;
-  right: 0%;
-  z-index: 0;
-  @media screen and (max-width: 760px) {
-    width: 300px;
-    height: 100vh;
-  }
-`;
 
 const ParentExploreAndData = styled.div`
   display: flex;
@@ -286,17 +272,6 @@ const Heading = styled.div`
   color: #ebf8ff;
 `;
 
-const StyledExploreNft = styled.img`
-  height: 500px;
-  width: 97px;
-  position: absolute;
-  left: 0;
-  top: 100px;
-  object-fit: contain;
-  @media screen and (max-width: 760px) {
-    display: none;
-  }
-`;
 
 const NoItemContainer = styled.div`
   display: flex;
@@ -597,8 +572,6 @@ export default function NewCollection({}: Props) {
             )}
           </ParentExploreAndData>
         </Spin>
-        <StyledExploreNft src="/icons/exploreNFT.png" />
-        <ColoredBackground></ColoredBackground>
       </MainContainer>
       <MainFooter />
     </>

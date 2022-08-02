@@ -65,9 +65,6 @@ const Market = () => {
           <Navbar />
         </div>
         <div className="container">
-          {/* <div className="exploreNft">
-            <Image src="/icons/exploreNFT.png" width={50} height={500} alt="exploreNFT" />
-          </div> */}
           <FilterWrapper>
             <div className="filter__heading">
               <FiFilter />
